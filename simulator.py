@@ -99,6 +99,6 @@ if __name__ == "__main__":
     graph = read_graph('12831.edges')
     print(type(graph))  # Check if this outputs <class 'networkx.classes.graph.Graph'>
     # start_nodes = [13927832, 7899982, 180505807, 22229621, 353101127]
-    start_nodes = [353101127]
+    start_nodes = [16004268]
 
     animate_spread(graph, start_nodes)
