@@ -90,7 +90,7 @@ def read_graph(file_path):
 
 # # Add some connections between the two sub-networks
 # cross_edges = [(3, 12), (7, 18), (2, 15), (9, 19), (4, 11)]  # Sample cross-connections
-# G.add_edges_from(cross_edges)
+# G.add_edges_from(cross_edges)+
 
 # G = "12831.edges"
 # test_graph = read_graph(G)
